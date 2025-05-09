@@ -63,6 +63,7 @@ export default function Header() {
               <a href="#how-it-works" className="text-gray-600 hover:text-blue-600 transition" onClick={() => setMobileMenuOpen(false)}>How It Works</a>
               <a href="#why-choose-us" className="text-gray-600 hover:text-blue-600 transition" onClick={() => setMobileMenuOpen(false)}>Why Choose Us</a>
               <a href="#testimonials" className="text-gray-600 hover:text-blue-600 transition" onClick={() => setMobileMenuOpen(false)}>Testimonials</a>
+              <ThemeToggle />
               <a href="#contact" className="btn-primary w-full text-center" onClick={() => setMobileMenuOpen(false)}>Get Started</a>
             </nav>
           </div>

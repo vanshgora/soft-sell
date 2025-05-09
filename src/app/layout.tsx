@@ -13,7 +13,7 @@ export default function RootLayout({ children }: any) {
   return (
     <>
       
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth dark">
     <Head>
         <title>SoftSell| Buy & Sell Software Licenses Safely and Legally</title>
         <meta name="description" content="SoftReMarket is the trusted platform to buy and sell unused software licenses. Save money, stay compliant, and unlock software value today." />
