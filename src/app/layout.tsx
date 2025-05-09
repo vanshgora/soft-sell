@@ -12,7 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }: any) {
   return (
     <>
-      <Head>
+      
+    <html lang="en" className="scroll-smooth">
+    <Head>
         <title>SoftSell| Buy & Sell Software Licenses Safely and Legally</title>
         <meta name="description" content="SoftReMarket is the trusted platform to buy and sell unused software licenses. Save money, stay compliant, and unlock software value today." />
         <meta name="keywords" content="software resale, license resale, unused software, buy software license, sell software license, license marketplace, secondhand software, B2B software resale, software compliance, software transfer, digital license marketplace" />
@@ -38,7 +40,6 @@ export default function RootLayout({ children }: any) {
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
-    <html lang="en" className="scroll-smooth">
       <body className="antialiased text-gray-800">
         <ThemeProvider>
           {children}
