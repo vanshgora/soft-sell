@@ -26,18 +26,18 @@ export default function RootLayout({ children }: any) {
         <meta property="og:url" content={websiteURL} />
         <meta property="og:title" content="SoftSell | Buy & Sell Software Licenses Safely and Legally" />
         <meta property="og:description" content="Join the leading marketplace for software license resale. Trusted, legal, and secure." />
-        <meta property="og:image" content="/public/soft-sell-img.jpeg" />
+        <meta property="og:image" content="/soft-sell-img.jpeg" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content={websiteURL}/>
         <meta name="twitter:title" content="SoftSell | Software License Marketplace" />
         <meta name="twitter:description" content="Buy & sell unused software licenses securely and save up to 70%. SoftSell is fast, trusted & compliant." />
-        <meta name="twitter:image" content="/public/soft-sell-img.jpeg" />
+        <meta name="twitter:image" content="/soft-sell-img.jpeg" />
 
         <link rel="canonical" href={websiteURL} />
 
         <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/sofy-sell-img.jpeg" />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <body className="antialiased text-gray-800">
