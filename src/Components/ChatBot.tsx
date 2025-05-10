@@ -123,10 +123,10 @@ export default function Chatbot() {
               <div
                 key={index}
                 className={
-                  "mb-2 max-w-[85%] p-3 rounded-lg whitespace-pre-wrap break-words" + 
-                  msg.isUser 
-                    ? "ml-auto rounded-br-none dark:text-white"
-                    : "mr-auto rounded-bl-none dark:text-gray-200 bg-white text-gray-800 border border-gray-200"
+                  "mb-2 max-w-[85%] p-3 rounded-lg whitespace-pre-wrap break-words " +
+                  (msg.isUser
+                    ? "ml-auto my-3 p-4 rounded-br-none bg-blue-300 dark:text-white"
+                    : "mr-auto rounded-bl-none dark:text-gray-200 text-gray-800 border border-gray-200")
                 }
               >
                 {msg.text}

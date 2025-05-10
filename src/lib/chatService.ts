@@ -28,7 +28,6 @@ let conversationHistory: (SystemMessage | HumanMessage | AIMessage)[] = [
 export async function processMessage(userMessage: string): Promise<string> {
   try {
     const humanMessage = new HumanMessage(userMessage);
-    conversationHistory = [];
     conversationHistory.push(humanMessage);
 
     const response = await chat.call(conversationHistory);
