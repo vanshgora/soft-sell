@@ -1,6 +1,7 @@
 // src/app/page.js
 'use client';
 
+import Chatbot from '@/Components/ChatBot';
 import ContactForm from '@/Components/ContactUsForm';
 import Footer from '@/Components/Footer';
 import Header from '@/Components/Header';
@@ -36,6 +37,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <Chatbot/>
       
       <Footer />
     </main>
